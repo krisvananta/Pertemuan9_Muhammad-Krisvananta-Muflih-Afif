@@ -1,0 +1,117 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://img.pikbest.com/wp/202346/sci-fi-illustrated-background-a-geometric-abstract-design-in-purple-and-blue-neon-light_9730428.jpg!sw800');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* Header styles */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fs-4 {
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+}
+
+header .nav-link {
+    color: #adb5bd;
+}
+
+header .nav-link:hover,
+header .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+}
+
+/* Main content styles */
+.container {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.pb-2{
+    color: #fff;
+}
+
+.under-title{
+    color: #fff;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-cover {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #adb5bd;
+    padding: 0 2% 0 2%;
+    margin-top: auto; 
+}
+
+footer a {
+    color: #adb5bd;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.text-body-secondary {
+    color: #6c757d !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .card-cover {
+        padding: 20px;
+    }
+
+    .card-cover h3 {
+        font-size: 1.5rem;
+    }
+
+    footer .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .nav-item {
+        margin-bottom: 10px;
+    }
+}
